@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Nouam is an AWS DevOps and Cloud Engineer focused on cloud infrastructure, automation, and reliable deployments."
+    />
+    <meta name="theme-color" content="#0b1020" />
+    <title>Nouam — AWS DevOps &amp; Cloud Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Nouam, home">
+          <span class="brand-mark">N<span>.</span></span>
+          <span>nouam<span class="brand-muted">/cloud</span></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#toolkit">Toolkit</a>
+          <a href="#work">Work</a>
+          <a class="nav-cta" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> AWS DEVOPS &amp; CLOUD ENGINEER</p>
+          <h1>Building in the cloud.<br /><span>Automating the journey.</span></h1>
+          <p class="hero-description">
+            I’m Nouam — I work with cloud infrastructure and deployment automation to help
+            applications get from code to the internet reliably.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#about">A little about me <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-meta">
+            <span><span class="meta-icon">⌘</span> Cloud infrastructure</span>
+            <span><span class="meta-icon">↻</span> DevOps &amp; automation</span>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Illustration of an application deployment pipeline">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="cloud-card">
+            <div class="cloud-card-top"><span></span><span></span><span></span><span class="terminal-label">deploy.sh</span></div>
+            <div class="terminal-body">
+              <p><span class="code-muted">01</span> <span class="code-purple">git</span> push origin main</p>
+              <p><span class="code-muted">02</span> <span class="code-green">✓</span> source updated</p>
+              <p><span class="code-muted">03</span> <span class="code-purple">ssh</span> ec2-instance</p>
+              <p><span class="code-muted">04</span> <span class="code-green">✓</span> site is live</p>
+              <p class="terminal-cursor"><span class="code-muted">05</span> <span></span></p>
+            </div>
+          </div>
+          <div class="floating-tag tag-aws"><span class="tag-symbol">⌁</span> AWS</div>
+          <div class="floating-tag tag-live"><span class="status-dot"></span> DEPLOYED</div>
+          <div class="hero-art-caption"><span>FROM COMMIT</span><i></i><span>TO CLOUD</span></div>
+        </div>
+        <div class="hero-index"><span>01</span> / INTRODUCTION</div>
+      </section>
+
+      <section class="intro section" id="about">
+        <div class="container intro-grid">
+          <div>
+            <p class="eyebrow"><span class="section-number">01</span> ABOUT ME</p>
+            <h2>Cloud foundations.<br /><span>Built with intention.</span></h2>
+          </div>
+          <div class="intro-copy">
+            <p>
+              I’m an AWS DevOps and Cloud Engineer interested in the systems that make
+              modern applications dependable — from Linux servers and web hosting to
+              repeatable deployment workflows.
+            </p>
+            <p>
+              This portfolio is itself a small cloud project: a static website prepared
+              for deployment on an AWS EC2 instance with Nginx. I’m continuing to grow
+              it with automated delivery and hands-on infrastructure work.
+            </p>
+            <a class="text-link" href="#work">See what I’m building <span aria-hidden="true">↘</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="toolkit section container" id="toolkit">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="section-number">02</span> TOOLKIT</p>
+            <h2>Tools of the trade<span class="accent">.</span></h2>
+          </div>
+          <p class="section-note">The building blocks behind cloud-ready deployments.</p>
+        </div>
+        <div class="tool-grid">
+          <article class="tool-card">
+            <span class="tool-icon icon-aws">⌁</span>
+            <h3>Cloud</h3>
+            <p>AWS · EC2</p>
+          </article>
+          <article class="tool-card">
+            <span class="tool-icon icon-linux">⌘</span>
+            <h3>Systems</h3>
+            <p>Linux · Nginx</p>
+          </article>
+          <article class="tool-card">
+            <span class="tool-icon icon-git">⑂</span>
+            <h3>Workflow</h3>
+            <p>Git · GitHub</p>
+          </article>
+          <article class="tool-card">
+            <span class="tool-icon icon-pipeline">⇢</span>
+            <h3>Automation</h3>
+            <p>GitHub Actions · CI/CD</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="work section" id="work">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow"><span class="section-number">03</span> SELECTED WORK</p>
+              <h2>Projects in the cloud<span class="accent">.</span></h2>
+            </div>
+            <p class="section-note">Practical projects, built one deployment at a time.</p>
+          </div>
+          <article class="project-card">
+            <div class="project-visual">
+              <div class="project-window">
+                <div class="window-bar"><span></span><span></span><span></span><b>infrastructure / static-site</b></div>
+                <div class="project-diagram">
+                  <div class="diagram-node"><span class="diagram-git">⑂</span><b>GitHub</b><small>Source code</small></div>
+                  <span class="diagram-arrow">→</span>
+                  <div class="diagram-node node-aws"><span class="diagram-aws">⌁</span><b>Amazon EC2</b><small>Linux · Nginx</small></div>
+                  <span class="diagram-arrow">→</span>
+                  <div class="diagram-node node-browser"><span>↗</span><b>Website</b><small>Live in the cloud</small></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-details">
+              <div class="project-topline"><span class="project-category">AWS · STATIC HOSTING</span><span class="project-status"><i></i> IN PROGRESS</span></div>
+              <h3>Static portfolio on AWS EC2</h3>
+              <p>
+                A lightweight portfolio built with HTML, CSS, and JavaScript, designed
+                to be served from a Linux EC2 instance using Nginx.
+              </p>
+              <div class="project-tags"><span>Amazon EC2</span><span>Linux</span><span>Nginx</span><span>HTML / CSS</span></div>
+              <a class="project-link" href="https://github.com/noumankhanbscysec-cloud/deploy-static-aws-ec2" target="_blank" rel="noreferrer">
+                View repository <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+          <p class="work-footnote"><span>↳</span> More cloud and automation projects coming as I build them.</p>
+        </div>
+      </section>
+
+      <section class="contact section container" id="contact">
+        <div class="contact-panel">
+          <div class="contact-orb"></div>
+          <div class="contact-content">
+            <p class="eyebrow"><span class="section-number">04</span> WHAT’S NEXT?</p>
+            <h2>Let’s build something<br /><span>that ships.</span></h2>
+            <p>Interested in cloud, DevOps, or a good deployment pipeline? Find me on GitHub.</p>
+            <a class="button button-light" href="https://github.com/noumankhanbscysec-cloud" target="_blank" rel="noreferrer">
+              Connect on GitHub <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <span class="contact-decoration" aria-hidden="true">N.</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer container">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark">N<span>.</span></span><span>nouam<span class="brand-muted">/cloud</span></span></a>
+      <p>Designed &amp; deployed with care.</p>
+      <a class="back-top" href="#home">BACK TO TOP ↑</a>
+      <p class="copyright">© <span id="year"></span> Nouam</p>
+    </footer>
+  </body>
+</html>
